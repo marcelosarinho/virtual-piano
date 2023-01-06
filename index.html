@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Piano Virtual</title>
+  </head>
+  <body>
+    <button class="dark-mode-button">
+      <img
+        class="dark-mode-icon"
+        src="./images/dark-mode-icon.png"
+        alt="Botão de Modo Noturno"
+      />
+    </button>
+    <div class="piano-div">
+      <h1 class="virtual-piano-header">Piano Virtual</h1>
+      <span class="separator">.</span>
+      <div class="piano-keys-div">
+        <div data-keyCode="49" class="white-key"><kbd>1</kbd></div>
+        <div data-keyCode="90" class="black-key first"><kbd>Z</kbd></div>
+        <div data-keyCode="50" class="white-key"><kbd>2</kbd></div>
+        <div data-keyCode="88" class="black-key second"><kbd>X</kbd></div>
+        <div data-keyCode="51" class="white-key"><kbd>3</kbd></div>
+        <div data-keyCode="52" class="white-key"><kbd>4</kbd></div>
+        <div data-keyCode="67" class="black-key third"><kbd>C</kbd></div>
+        <div data-keyCode="53" class="white-key"><kbd>5</kbd></div>
+        <div data-keyCode="86" class="black-key fourth"><kbd>V</kbd></div>
+        <div data-keyCode="54" class="white-key"><kbd>6</kbd></div>
+        <div data-keyCode="66" class="black-key fifth"><kbd>B</kbd></div>
+        <div data-keyCode="55" class="white-key"><kbd>7</kbd></div>
+        <div data-keyCode="56" class="white-key"><kbd>8</kbd></div>
+        <div data-keyCode="78" class="black-key sixth"><kbd>N</kbd></div>
+        <div data-keyCode="57" class="white-key"><kbd>9</kbd></div>
+        <div data-keyCode="77" class="black-key seventh"><kbd>M</kbd></div>
+        <div data-keyCode="48" class="white-key"><kbd>0</kbd></div>
+        <div data-keyCode="81" class="white-key"><kbd>Q</kbd></div>
+        <div data-keyCode="74" class="black-key eighth"><kbd>J</kbd></div>
+        <div data-keyCode="87" class="white-key"><kbd>W</kbd></div>
+        <div data-keyCode="75" class="black-key nineth"><kbd>K</kbd></div>
+        <div data-keyCode="69" class="white-key"><kbd>E</kbd></div>
+        <div data-keyCode="76" class="black-key tenth"><kbd>L</kbd></div>
+        <div data-keyCode="82" class="white-key"><kbd>R</kbd></div>
+        <div data-keyCode="84" class="white-key"><kbd>T</kbd></div>
+      </div>
+    </div>
+
+    <audio data-keyCode="49" src=""></audio>
+    <audio data-keyCode="50" src=""></audio>
+    <audio data-keyCode="51" src=""></audio>
+    <audio data-keyCode="52" src=""></audio>
+    <audio data-keyCode="53" src=""></audio>
+    <audio data-keyCode="54" src=""></audio>
+    <audio data-keyCode="55" src=""></audio>
+    <audio data-keyCode="56" src=""></audio>
+    <audio data-keyCode="57" src=""></audio>
+    <audio data-keyCode="48" src=""></audio>
+    <audio data-keyCode="81" src=""></audio>
+    <audio data-keyCode="87" src=""></audio>
+    <audio data-keyCode="69" src=""></audio>
+    <audio data-keyCode="82" src=""></audio>
+    <audio data-keyCode="84" src=""></audio>
+    <audio data-keyCode="90" src=""></audio>
+    <audio data-keyCode="88" src=""></audio>
+    <audio data-keyCode="67" src=""></audio>
+    <audio data-keyCode="86" src=""></audio>
+    <audio data-keyCode="66" src=""></audio>
+    <audio data-keyCode="78" src=""></audio>
+    <audio data-keyCode="77" src=""></audio>
+    <audio data-keyCode="74" src=""></audio>
+    <audio data-keyCode="75" src=""></audio>
+    <audio data-keyCode="76" src=""></audio>
+
+    <script src="index.js"></script>
+  </body>
+</html>
